@@ -8,7 +8,7 @@ if(isset($_POST['submit-contact'])):
     $email= htmlentities($_POST['email-contact']); 
     $message = htmlentities($_POST['message-content']);
 
-      mail("lemine.el.agheb1994@gmail.com", "Kontaktformular",  
+      mail("", "Kontaktformular",  
       'Vorname: '.$firstname.', Nachname: '.$lastname.', E-Mail-Adresse: '.$email.', Nachricht: '.$message);  
 
       header('Location: contact.html');  
