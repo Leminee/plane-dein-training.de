@@ -1,0 +1,28 @@
+html { 
+    font-size: 1.5em;  
+    
+} 
+ 
+ 
+body {  
+    background-color: #FFFAE1;
+    text-align: center;    
+    margin-top: 15%; 
+
+
+}  
+
+img { 
+    height: 150px;  
+    padding: 15px;
+    
+}
+
+h3 { 
+    color:green;
+} 
+
+a {   
+
+    color: navy;
+} 
