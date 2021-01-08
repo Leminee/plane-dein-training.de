@@ -6,15 +6,15 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=0.7">  
      <meta description="plane-dein-training.de bietet die Möglichkeit, einen Trainingpan zu erstellen und sich
-     die Ausführung vieler  Fitnessübungen mit Videos und Beschreibung anzuzeigen."> 
+     die Ausführung vieler Fitnessübungen mit Videos und Beschreibung anzuzeigen."> 
      <meta keywords="Trainingsplan, Fitness, Trainingsplan erstellen, BMI, Fitnessübungen"> 
-     <meta name="author" content="Lemine M" /> 
+     <meta name="author" content="Lemine" /> 
      <meta name="robots" content="index"/> 
      <meta name="robots" content="follow"/>  
      <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="icon" href="media/logo.svg"> 
-    <title>plane-dein-training.de</title> 
+    <link rel="icon" href="media/logo.png"> 
+    <title>plane-dein-training</title> 
 
 
   </head> 
@@ -24,17 +24,17 @@
     <header>
       <nav>
         <ul>
-          <li id="logo"><a href="#"><img name="website-logo" alt="Logo" src="media/logo.svg" height="30px"></a></li>
+          <li id="logo"><a href="#"><img name="website-logo" alt="Logo" src="media/logo.png" height="30px"></a></li>
           <li><a href="#contact">Kontaktiere mich</a></li>  
           <li><a href="exercises.html" target="_blank">Fitnessübungen</a></li> 
-          <li><a href="http://localhost/register&login.php">Anmelden</a></li>
+          <li><a href="register&login.php">Anmelden</a></li>
         </ul>
       </nav> 
 
       <div class="background-principal-image"> 
         <h1>Erstelle kostenlos Deinen Trainingsplan</h1>  
 
-        <button id="create-plan"> <a id="mouse-over-link-create-plan" href="http://localhost/register&login.php"> Trainings<wbr>plan erstellen</a></button>
+        <button id="create-plan"> <a id="mouse-over-link-create-plan" href="register&login.php"> Trainings<wbr>plan erstellen</a></button>
         
       </div>
 
@@ -74,8 +74,8 @@
 
 </div>
 
-<iframe src="bmi.php" title="bmi" height="750px" width="550px"></iframe>
-<iframe src="ideal-weight.php" title="bmi" height="750px" width="550px"></iframe>
+<iframe src="bmi.php" title="bmi" height="750px" width="505px"></iframe>
+<iframe src="ideal-weight.php" title="bmi" height="750px" width="505px"></iframe>
 
 </section> 
 
@@ -91,7 +91,7 @@
         <input name="firstname" type = "text" placeholder="Vorname" required>  
         <input name ="lastname" type = "text" placeholder="Name" required> 
         <input name ="email-contact" type = "email" placeholder="E-Mail-Adresse" required> 
-        <textarea name="message-content" placeholder="Deine Nachricht an mich"></textarea>
+        <textarea name="message-content" placeholder="Deine Nachricht an mich" minlength="10" required></textarea>
         <button name ="submit-contact" type="submit">Abschicken</button>
       </form>
       <div id="line"></div>
