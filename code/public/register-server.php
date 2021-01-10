@@ -36,7 +36,7 @@ if(isset($_POST['register'])):
  
 if ($insert_result):  
  
-    header('Location:registration-success.html'); 
+    header('Location:assets/registration-success.html'); 
     exit();
 
 endif; 

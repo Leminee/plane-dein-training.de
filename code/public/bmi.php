@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/assets/media/logo.svg">   
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css"> 
     <link rel="stylesheet" href="/assets/css/style-bmi.css">
     
     <title>BMI</title> 
@@ -17,30 +17,28 @@
 
 <div class="bmi">   
    
-<h4> <u>BMI</u></h4>
- 
-  
-<form action="bmi.php" method="GET">  
-<div>  
-<label>Alter:</label></br>
-<input type="number" name="age">   
-</div> 
-<div>
-<label>Körpergröße in cm:</label></br>
-<input type="number" name="body-size">   
-</div> 
-<div>
-<label> Körpergewicht in kg:</label> </br>
-<input type="number" name="body-weight">  
-</div>  
-<br>
-<div>
-<button type ="submit" name="calculate"> Berechnen </button>    
-</div>   
-
-
-</form>  
-
+   <h4> <u>BMI</u></h4>
+   
+   
+   <form action="bmi.php" method="GET">  
+      <div>  
+      <label>Alter:</label></br>
+      <input type="number" name="age">   
+      </div> 
+      <div>
+      <label>Körpergröße in cm:</label></br>
+      <input type="number" name="body-size">   
+      </div> 
+      <div>
+      <label> Körpergewicht in kg:</label> </br>
+      <input type="number" name="body-weight">  
+      </div>  
+      <br>
+      <div>
+      <button type ="submit" name="calculate"> Berechnen </button>    
+      </div>   
+   </form>  
+</div>
 
 
   

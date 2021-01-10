@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="assets/media/logo.svg">   
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css"> 
 
     <title>Passwort zurücksetzen</title> 
     

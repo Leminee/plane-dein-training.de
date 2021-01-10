@@ -48,18 +48,18 @@
         <h2>Drei Schritte bis zu Deinem Trainingsplan </h2>
         
       </div>
-      <div id="illustration">
-        <div class="image-illustration">
+      <div id="illustration" class="deconstructed-pancake-parent">
+        <div class="image-illustration deconstructed-pancake-child">
           <h6 class="stape-font"> Schritt 1/3 </h6> 
           <h4>Registriere Dich</h4>
           <img src="assets/media/register.png"  alt="Bild - erster Schritt zum Erstellen eines Trainingsplans">
         </div>
-        <div class="image-illustration">
+        <div class="image-illustration deconstructed-pancake-child">
           <h6 class="stape-font">Schritt 2/3</h6> 
           <h4>Melde Dich an</h4>
           <img src="assets/media/login.png" alt="Bild - zweiter Schritt zum Erstellen eines Trainingsplans">
         </div>
-        <div class="image-illustration">
+        <div class="image-illustration deconstructed-pancake-child">
           <h6 class="stape-font">Schritt 3/3</h6> 
           <h4>Erstelle Deinen Trainingsplan</h4>
           <img src="assets/media/createTrDemo.png"  alt="Bild - dritter Schritt zum Erstellen eines Trainingsplans">
@@ -73,10 +73,14 @@
 <h2> Body Mass Index und Idealgewicht Rechner</h2>  
 
 </div>
-
-<iframe src="bmi.php" title="bmi" height="750px" width="505px"></iframe>
-<iframe src="ideal-weight.php" title="bmi" height="750px" width="505px"></iframe>
-
+<div class="deconstructed-pancake-parent">
+  <div class="deconstructed-pancake-child">
+    <iframe src="bmi.php" title="bmi" height="750px" width="505px"></iframe>
+  </div>
+  <div class="deconstructed-pancake-child">
+    <iframe src="ideal-weight.php" title="bmi" height="750px" width="505px"></iframe>
+  </div>
+<div>
 </section> 
 
 </main>
