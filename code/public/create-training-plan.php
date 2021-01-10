@@ -6,9 +6,9 @@
     <title> 
         Trainingsplan erstellen
     </title>  
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style-create-training-plan.css">
-    <link rel="icon" href="media/logo.svg"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style-create-training-plan.css">
+    <link rel="icon" href="assets/media/logo.svg"> 
     
 </head> 
 

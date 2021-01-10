@@ -15,8 +15,8 @@
 
    <noscript> Dein Browser unterstüzt kein JavaScript</noscript> 
    
- <link rel="stylesheet" href="style-login-and-register.css">  
- <link rel="icon" href="media/logo.svg">  
+ <link rel="stylesheet" href="assets/css/style-login-and-register.css">  
+ <link rel="icon" href="assets/media/logo.svg">  
   
 
 </head> 
@@ -87,7 +87,7 @@
         
     </div> 
      
-    <script type="text/javascript" src="register&login.js"></script>
+    <script type="text/javascript" src="assets/js/register&login.js"></script>
 
       
 

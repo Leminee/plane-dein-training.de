@@ -6,9 +6,9 @@
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=0.5"> 
    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="account-recovery-style.css"> 
-    <link rel="icon" href="media/logo.svg">   
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/account-recovery-style.css"> 
+    <link rel="icon" href="assets/media/logo.svg">   
 
     <title>
         Passwort-Wiederherstellung

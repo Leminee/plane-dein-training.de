@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="media/logo.svg">   
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="style-bmi.css">
+    <link rel="icon" href="/assets/media/logo.svg">   
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/assets/css/style-bmi.css">
     
     <title>BMI</title> 
 
