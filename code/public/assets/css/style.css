@@ -13,8 +13,6 @@ section {
   
 
 .bmi{ 
- 
-  padding: 10px 50px 50px 150px; 
   background-color:#FFFAE1;  
   box-shadow: 1px 1px 1px 1px navy;  
   border-radius: 20px; 
@@ -33,9 +31,7 @@ section {
  border-radius: 17px;
  text-align: center; 
  padding:13px 20px 13px 20px;  
- margin-top: 6%;     
- margin-left: 40%;  
- margin-right: 40%; 
+ margin-top: 6%;
  background-color:#e40039; 
  text-transform: uppercase;  
  width:35%;   
@@ -123,10 +119,33 @@ header li a {
 
 .background-principal-image{
   padding-top: 50px;
-  background: url(media/bgPic.jpg) no-repeat fixed 50% 5%;
+  background: url(../media/bgPic.jpg) no-repeat fixed 50% 5%;
   background-size: cover;
   height: 666px; 
+
+  /* Center headline & button */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: baseline;
 }
+
+
+.background-principal-image h1 {
+  width: 100%;
+}
+
+.deconstructed-pancake-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deconstructed-pancake-child {
+  flex: 0 1 150px;
+  margin: 30px;
+}
+
 
 h1 {
   text-align: center;
@@ -155,7 +174,6 @@ h1 {
 #illustration {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 30px 10%;  
 }
 .image-illustration h4 {
